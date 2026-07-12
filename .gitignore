@@ -1,0 +1,28 @@
+## Ignore Visual Studio / Rider / VS Code temp files and build directories
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Tt]emp/
+[Tt]mp/
+
+# IDEs and Editors
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+*.swp
+*~
+
+# NuGet packages
+packages/
+*.nuget.props
+*.nuget.targets
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
