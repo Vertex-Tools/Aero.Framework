@@ -175,22 +175,21 @@ public class HelloCommand : ICommand
 ```
 
 ### 4. Registering Events
-Any class implementing the `IEvent` interface is scanned and registered automatically. Implement the hook logic within `Register` and clean it up in `Unregister` to prevent memory leaks.
+The framework automatically scans and registers event handlers using the [AeroEvent] attribute. You don't need to manually implement interfaces or register listeners.
 
 ```csharp
-using Aero.API.Interfaces;
+using Aero.Events;
+using Aero.API.Events.Network;
 using Aero.API.Features;
 
-public class PlayerDeathEvent : IEvent
+public class PlayerEventHandler
 {
-    public void Register()
+    // 🏷️ The framework will automatically detect this attribute on startup
+    [AeroEvent(typeof(PlayerEnteringEvent))]
+    public void OnPlayerEntering(PlayerEnteringEvent e)
     {
-        // Hook FiveM/Aero Event listeners here
-    }
-
-    public void Unregister()
-    {
-        // Cleanup hooks here
+        // 🎨 Your color-coded logs work natively here!
+        Log.Success($"Player {e.PlayerName} (ID: {e.PlayerId}) is entering the server! ^2✓");
     }
 }
 ```
