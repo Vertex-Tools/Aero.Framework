@@ -91,22 +91,21 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-* [.NET SDK 8.0](https://dotnet.microsoft.com/download)
+* [.NET SDK 4.7.2](https://dotnet.microsoft.com/download)
 * Rider, Visual Studio, or VS Code
 * A FiveM Server environment
 
-### Installation
+### Automatic Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Vertex-Tools/Aero.Framework.git
-   ```
-2. Open `Aero.Framework.sln` in your preferred IDE (e.g., Rider).
-3. Restore NuGet packages and build the solution:
-   ```sh
-   dotnet build Aero.Framework.sln
-   ```
-4. Deploy the output resource folder to your FiveM server resources.
+1. From the release install the installer from github.
+2. Restart the server and enjoy the framework!
+
+### Manual Installation
+
+1. Install all DLL's from the release on github.
+2. Put all the DLL's in the resource folder in the FiveM server.
+3. Build the manifest.lua to link everything.
+4. Restart the server and enjoy the framework!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
