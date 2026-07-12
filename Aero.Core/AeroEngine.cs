@@ -11,6 +11,7 @@ using Aero.API.Core;
 using Aero.API.Features;
 using Aero.Core.Loader;
 using Aero.Drivers.Registry;
+using Aero.Events;
 using Aero.Events.Dispatchers;
 using Avian.Event;
 using CitizenFX.Core;
@@ -25,6 +26,7 @@ namespace Aero.Core
         private readonly PluginLoader _pluginLoader;
         private bool _isInitialized;
         private Dispatcher _dispatcher; // Dispatcher for Aero Event system.
+        private EventManager _eventManager = new(); // Manager of the Aero Event system.
         private DriverRegistry _driverRegistry = new();
         public static AeroEngine Singleton { get; private set; } // Instance of the Aero Engine.
         
@@ -55,9 +57,9 @@ namespace Aero.Core
                 string resourcePath = CitizenFX.Core.Native.API.GetResourcePath(resourceName); // Resolve resource path.
                 Paths.Init(resourcePath);
                 
-                Log.SendRaw("Aero Framework", ConsoleColor.Red);
-                Log.SendRaw($"Core Version: {API.Version.CoreCurrent}", ConsoleColor.Red);
-                Log.SendRaw($"API Version: {API.Version.ApiCurrent}", ConsoleColor.Red);
+                Log.SendRaw("Aero Framework", "^1");
+                Log.SendRaw($"Core Version: {API.Version.CoreCurrent}", "^1");
+                Log.SendRaw($"API Version: {API.Version.ApiCurrent}", "^1");
                 Log.Info("Welcome to:");
                 Log.SendRaw(@"
  ________  _______   ________  ________     
@@ -68,13 +70,14 @@ namespace Aero.Core
    \ \__\ \__\ \_______\ \__\\ _\\ \_______\
     \|__|\|__|\|_______|\|__|\|__|\|_______| #Made by Vertex Tools.
                                             
-                                          ", ConsoleColor.White);
+                                          ");
                 Log.Info("Initializing Aero Drivers...");
                 _driverRegistry.InitializeAll();
                 Log.Success("Driver initialized ✓");
                 
                 Log.Info("Initializing Aero Events...");
                 _dispatcher = new Dispatcher(32, 1024); // 32 types of events in 1024 slots is the perfect number for performance and stability.
+                _eventManager.RegisterEvent(_dispatcher);
                 
                 new CombatDispatchers(_dispatcher);
                 new EntityDispatchers(_dispatcher);

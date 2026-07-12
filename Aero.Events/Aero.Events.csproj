@@ -64,11 +64,13 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AeroEventAttribute.cs" />
         <Compile Include="Dispatchers\CombatDispatchers.cs" />
         <Compile Include="Dispatchers\EntityDispatchers.cs" />
         <Compile Include="Dispatchers\NetworkDispatchers.cs" />
         <Compile Include="Dispatchers\PlayerDispatchers.cs" />
         <Compile Include="Dispatchers\SecurityDispatcher.cs" />
+        <Compile Include="EventManager.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
