@@ -136,7 +136,6 @@ namespace Aero.Core
                 _dispatcher = null;
                 
                 _pluginLoader.UnloadPlugins();
-                _pluginLoader.Register.UnregisterAll();
                 
                 Log.Success("All components unhooked clean. Core down.");
             }

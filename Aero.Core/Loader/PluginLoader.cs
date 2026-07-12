@@ -21,7 +21,6 @@ namespace Aero.Core.Loader
     public class PluginLoader
     {
         public static readonly List<object> LoadedPlugins = new(); // List of all loaded plugins.
-        public EventRegister Register { get; } = new(); // Event Register Handler.
         public CommandRegister CommandRegister { get; } = new(); // Command Register Handler.
         public bool IsPluginType(Type type) => typeof(Plugin<>).IsAssignableFrom(type); // Checks if the type is a plugin.
         
@@ -69,7 +68,6 @@ namespace Aero.Core.Loader
                 try
                 {
                     var assembly = Assembly.LoadFrom(file);
-                    Register.RegisterAssembly(assembly);
                     CommandRegister.RegisterAssemblyCommands(assembly);
                     var pluginType = assembly.GetTypes()
                         .Where(t => t.IsClass && !t.IsAbstract && IsPluginType(t));

@@ -5,11 +5,14 @@
 // </copyright>
 // ====================================
 
+using System;
+
 namespace Aero.API.Interfaces;
 
 /// <summary>
 /// Represents an event that can be registered and unregistered within the system.
 /// </summary>
+[Obsolete("Use the new [AeroEvent] attribute system instead. This interface will be removed in future versions.")]
 public interface IEvent
 {
     void Register();

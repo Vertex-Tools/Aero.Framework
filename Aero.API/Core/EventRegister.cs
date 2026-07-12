@@ -14,6 +14,7 @@ using Aero.API.Interfaces;
 
 namespace Aero.API.Core;
 
+[Obsolete("Use Attribute System instead.")]
 public class EventRegister
 {
     private readonly List<IEvent> _events = new(); // List of all registered events.
