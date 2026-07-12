@@ -43,7 +43,6 @@
         <Reference Include="Avian.Event, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
           <HintPath>..\packages\Avian.Event.1.0.3-preview\lib\netstandard2.0\Avian.Event.dll</HintPath>
         </Reference>
-        
         <Reference Include="CitizenFX.Core.Server, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <HintPath>..\packages\CitizenFX.Core.Server.1.0.26803\lib\net45\CitizenFX.Core.Server.dll</HintPath>
         </Reference>

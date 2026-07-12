@@ -9,7 +9,6 @@
 
     <ItemGroup>
       <PackageReference Include="Avian.Event" Version="1.0.3-preview" />
-      <PackageReference Include="CitizenFX.Core.Server" Version="1.0.26803" />
       <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
       <PackageReference Include="xunit.v3" Version="4.0.0-pre.128" />
       <PackageReference Include="xunit.v3.extensibility.core" Version="4.0.0-pre.128" />
