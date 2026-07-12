@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Installer\\Aero.Installer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj",
+        "projectName": "Aero.API",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj",
+        "projectName": "Aero.Core",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj",
+        "projectName": "Aero.Drivers",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj",
+        "projectName": "Aero.Events",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Installer\\Aero.Installer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Installer\\Aero.Installer.csproj",
+        "projectName": "Aero.Installer",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Installer\\Aero.Installer.csproj",
+        "packagesPath": "C:\\Users\\ciste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Installer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ciste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ciste\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/FlorentinaSL/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\Aero.Tests.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\Aero.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj",
+        "projectName": "Aero.Shared",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\Aero.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\Aero.Tests.csproj",
+        "projectName": "Aero.Tests",
+        "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\Aero.Tests.csproj",
+        "packagesPath": "C:\\Users\\ciste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ciste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ciste\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/FlorentinaSL/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.API\\Aero.API.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Core\\Aero.Core.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Drivers\\Aero.Drivers.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Events\\Aero.Events.csproj"
+              },
+              "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj": {
+                "projectPath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Shared\\Aero.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avian.Event": {
+              "target": "Package",
+              "version": "[1.0.3-preview, )"
+            },
+            "CitizenFX.Core.Server": {
+              "target": "Package",
+              "version": "[1.0.26803, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[18.1.0, )"
+            },
+            "xunit.v3": {
+              "target": "Package",
+              "version": "[4.0.0-pre.128, )"
+            },
+            "xunit.v3.extensibility.core": {
+              "target": "Package",
+              "version": "[4.0.0-pre.128, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

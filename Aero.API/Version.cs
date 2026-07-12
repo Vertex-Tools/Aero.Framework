@@ -7,8 +7,9 @@
 
 namespace Aero.API
 {
-    public class Version
+    public static class Version
     {
-        
+        public static System.Version ApiCurrent = new System.Version(0, 1, 0); // Gets the current version of the API.
+        public static System.Version CoreCurrent = new System.Version(0, 1, 0); // Gets the current version of the Core.
     }
 }

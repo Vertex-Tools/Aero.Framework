@@ -7,7 +7,10 @@
 
 namespace Aero.API.Interfaces;
 
-public class IConfig
+/// <summary>
+/// Represents the configuration settings for a plugin.
+/// </summary>
+public interface IConfig
 {
-    
+    bool Enabled { get; set; } // Whether the plugin is enabled.
 }

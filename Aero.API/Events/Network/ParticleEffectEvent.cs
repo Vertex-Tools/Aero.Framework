@@ -5,9 +5,21 @@
 // </copyright>
 // ====================================
 
+using Avian;
+
 namespace Aero.API.Events.Network;
 
-public class ParticleEffectEvent
+/// <summary>
+/// Represents an event that is triggered when a particle effect is executed within the network context.
+/// </summary>
+public readonly struct ParticleEffectEvent : IEvent
 {
+    public int SenderId { get; }
+    public uint AssetHash { get; }
     
+    public ParticleEffectEvent(int senderId, uint assetHash)
+    {
+        SenderId = senderId;
+        AssetHash = assetHash;
+    }
 }

@@ -1,0 +1,11 @@
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\bin\Debug\Aero.Shared.dll
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\bin\Debug\Aero.Shared.pdb
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\bin\Debug\CitizenFX.Core.Server.dll
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\bin\Debug\YamlDotNet.dll
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\bin\Debug\CitizenFX.Core.Server.xml
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\bin\Debug\YamlDotNet.xml
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\obj\Debug\Aero.Shared.csproj.AssemblyReference.cache
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\obj\Debug\Aero.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\obj\Debug\Aero.Sha.B7E89F55.Up2Date
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\obj\Debug\Aero.Shared.dll
+C:\Users\ciste\RiderProjects\Aero.Framework\Aero.Shared\obj\Debug\Aero.Shared.pdb

@@ -5,9 +5,18 @@
 // </copyright>
 // ====================================
 
+using Aero.API.Features;
+using Aero.Core;
+using Xunit;
+
 namespace Aero.Tests.Core;
 
 public class AeroEngineTests
 {
-    
+    [Fact]
+    public void Engine_Singleton_ShouldBeNullBeforeInitialization()
+    {
+        Assert.Null(AeroEngine.Singleton);
+        Log.Success("AeroEngine: SUCCESS");
+    }
 }

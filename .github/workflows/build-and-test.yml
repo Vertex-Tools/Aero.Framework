@@ -1,0 +1,29 @@
+﻿name: Aero CI Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Source Code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore Dependencies
+      run: dotnet restore Aero.Framework.sln
+
+    - name: Build Solution
+      run: dotnet build Aero.Framework.sln --configuration Release --no-restore
+
+    - name: Execute Automated Unit Tests
+      run: dotnet test Aero.Framework.sln --configuration Release --no-build --verbosity normal

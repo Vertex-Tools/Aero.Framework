@@ -5,9 +5,21 @@
 // </copyright>
 // ====================================
 
-namespace Aero.API.Events.Network;
+using Avian;
 
-public class PlayerLeftEvent
+namespace Aero.API.Events.Network
 {
-    
+    public readonly struct PlayerLeftEvent : IEvent
+    {
+        public int PlayerId { get; }
+        public string PlayerName { get; }
+        public string Reason { get; }
+
+        public PlayerLeftEvent(int playerId, string playerName, string reason)
+        {
+            PlayerId = playerId;
+            PlayerName = playerName;
+            Reason = reason;
+        }
+    }
 }

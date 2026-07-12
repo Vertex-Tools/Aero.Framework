@@ -33,3 +33,16 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+namespace System.Runtime.CompilerServices
+{
+    /// <summary>
+    /// Polyfill to support the [ModuleInitializer] attribute in .NET Framework 4.7.2.
+    /// This allows the pyro.Avian source generator to initialize embedded assemblies at startup.
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Method, Inherited = false)]
+    public sealed class ModuleInitializerAttribute : Attribute
+    {
+    }
+}
+

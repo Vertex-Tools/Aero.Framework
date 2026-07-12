@@ -5,9 +5,17 @@
 // </copyright>
 // ====================================
 
+using System.Collections.Generic;
+using Aero.API.Features;
+
 namespace Aero.API.Interfaces;
 
-public class IPlayerDriver
+/// <summary>
+/// Represents the contract for controlling player actions within the system.
+/// </summary>
+public interface IPlayerDriver : IDriver
 {
-    
+    Player GetPlayer(int playerId);
+    IEnumerable<Player> GetAllPlayers();
+    void SavePlayerData(Player player);
 }

@@ -5,9 +5,23 @@
 // </copyright>
 // ====================================
 
+using Avian;
+
 namespace Aero.API.Events.Combat;
 
-public struct PlayerDamagedEvent
+/// <summary>
+/// Represents an event triggered when a player takes damage in a combat scenario.
+/// </summary>
+public readonly struct PlayerDamagedEvent : IEvent
 {
-    
+    public int PlayerId { get; }
+    public int DamageAmount { get; }
+    public uint WeaponHash { get; }
+
+    public PlayerDamagedEvent(int playerId, int damageAmount, uint weaponHash)
+    {
+        PlayerId = playerId;
+        DamageAmount = damageAmount;
+        WeaponHash = weaponHash;
+    }
 }

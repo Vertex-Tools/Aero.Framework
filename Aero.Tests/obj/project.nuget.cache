@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "7N/UoE+i11U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ciste\\RiderProjects\\Aero.Framework\\Aero.Tests\\Aero.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ciste\\.nuget\\packages\\avian\\1.0.3-preview\\avian.1.0.3-preview.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\avian.event\\1.0.3-preview\\avian.event.1.0.3-preview.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\citizenfx.core.server\\1.0.26803\\citizenfx.core.server.1.0.26803.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.2.3\\microsoft.testing.extensions.telemetry.2.2.3.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.2.3\\microsoft.testing.extensions.trxreport.abstractions.2.2.3.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.testing.platform\\2.2.3\\microsoft.testing.platform.2.2.3.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.2.3\\microsoft.testing.platform.msbuild.2.2.3.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\system.security.accesscontrol\\6.0.1\\system.security.accesscontrol.6.0.1.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.analyzers\\2.0.0-pre.56\\xunit.analyzers.2.0.0-pre.56.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3\\4.0.0-pre.128\\xunit.v3.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.assert\\4.0.0-pre.128\\xunit.v3.assert.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.common\\4.0.0-pre.128\\xunit.v3.common.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.core.mtp-v2\\4.0.0-pre.128\\xunit.v3.core.mtp-v2.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.extensibility.core\\4.0.0-pre.128\\xunit.v3.extensibility.core.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.mtp-v2\\4.0.0-pre.128\\xunit.v3.mtp-v2.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.runner.common\\4.0.0-pre.128\\xunit.v3.runner.common.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\xunit.v3.runner.inproc.console\\4.0.0-pre.128\\xunit.v3.runner.inproc.console.4.0.0-pre.128.nupkg.sha512",
+    "C:\\Users\\ciste\\.nuget\\packages\\yamldotnet\\18.1.0\\yamldotnet.18.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

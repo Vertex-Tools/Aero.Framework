@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Aero.API\Aero.API.csproj" />
+      <ProjectReference Include="..\Aero.Core\Aero.Core.csproj" />
+      <ProjectReference Include="..\Aero.Drivers\Aero.Drivers.csproj" />
+      <ProjectReference Include="..\Aero.Events\Aero.Events.csproj" />
+      <ProjectReference Include="..\Aero.Shared\Aero.Shared.csproj" />
+      <ProjectReference Include="..\Aero.Tests\Aero.Tests.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -5,9 +5,15 @@
 // </copyright>
 // ====================================
 
+using System;
+
 namespace Aero.API.Enums;
 
-public enum ExplosionEnum
+/// <summary>
+/// Defines the types of explosions that can occur within the system.
+/// </summary>
+[Flags]
+public enum ExplosionType
 {
     None = 0, // _, Default
     Grenade = 1 << 0,

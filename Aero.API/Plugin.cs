@@ -5,9 +5,11 @@
 // </copyright>
 // ====================================
 
-namespace Aero.API.Interfaces;
+using Aero.API.Interfaces;
 
-public abstract class Plugin<Tconfig> where Tconfig : class, IConfig, new()
+namespace Aero.API;
+
+public abstract class Plugin<TConfig> where TConfig : class, IConfig, new()
 {
     public abstract string Name { get; }
     public abstract string Author { get; }
