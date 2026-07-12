@@ -1,4 +1,4 @@
-﻿// ====================================
+// ====================================
 // <copyright file="AeroEngine.cs" company="Vertex Tools">
 // Copyright (c) Aero.Framework. All rights reserved.
 // Licensed under the MIT License.
@@ -39,6 +39,8 @@ namespace Aero.Core
             // Native fiveM event handlers.
             EventHandlers["onResourceStart"] += new Action<string>(OnResourceStart);
             EventHandlers["onResourceStop"] += new Action<string>(OnResourceStop);
+            
+            OnResourceStart(CitizenFX.Core.Native.API.GetCurrentResourceName());
         }
 
         private void OnResourceStart(string resourceName)
