@@ -20,7 +20,7 @@
   <p align="center">
     A high-performance C# server-side development framework for FiveM.
     <br />
-    <a href="https://github.com/Vertex-Tools/Aero.Framework"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Vertex-Tools/Aero.Framework"><strong>Explore the docs » (In development)</strong></a>
     <br />
     <br />
     <a href="https://github.com/Vertex-Tools/Aero.Framework/issues">Report Bug</a>
@@ -269,3 +269,12 @@ Project Link: [https://github.com/Vertex-Tools/Aero.Framework](https://github.co
 [issues-url]: https://github.com/Vertex-Tools/Aero.Framework/issues
 [license-shield]: https://img.shields.io/github/license/Vertex-Tools/Aero.Framework.svg?style=for-the-badge
 [license-url]: https://github.com/Vertex-Tools/Aero.Framework/blob/main/LICENSE
+
+## Acknowledgments
+
+- **Cfx** - [CitizenFX.Core.Server](https://github.com/citizenfx/fivem): Thanks for its native API and communication FiveM - C#
+- **Jnewkirk**, **Bradwilson** - [xunitv3](https://github.com/xunit/xunit): Thanks for their system to test all our systems in Aero.Tests
+- **Antoine Aubry** - [YamlDotNet](https://github.com/aaubry/YamlDotNet): Thanks for building our ConfigBuilder which is essential for our core
+- **Microsoft** - [System](https://github.com/dotnet): C# Native System
+- **Vertex Tools** - [Avian](https://github.com/Vertex-Tools/Avian): Essential for our Event system
+- **Vertex Tools** - [pyro.Avian](https://github.com/Vertex-Tools/pyro.Avian): Useful for packaging all the dependencies in one dll
