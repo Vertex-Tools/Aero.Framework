@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Vertex-Tools/Aero.Framework">
-    <img src="assets/banner.png" alt="Logo" width="100%">
+    <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7ba40ee1-dcbf-4d12-a9ba-f5de586ac971" />
   </a>
 
   <h3 align="center">Aero Framework</h3>
