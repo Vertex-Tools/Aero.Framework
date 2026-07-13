@@ -62,7 +62,7 @@ namespace Aero.Core
                 Log.SendRaw("Aero Framework", "^1");
                 Log.SendRaw($"Core Version: {API.Version.CoreCurrent}", "^1");
                 Log.SendRaw($"API Version: {API.Version.ApiCurrent}", "^1");
-                Log.Info("Welcome to:");
+                Log.Info("Welcome to: ");
                 Log.SendRaw(@"
  ________  _______   ________  ________     
 |\   __  \|\  ___ \ |\   __  \|\   __  \    

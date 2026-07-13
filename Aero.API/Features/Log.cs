@@ -17,7 +17,13 @@ public static class Log
     public static string ClearPlugin() => CurrentPlugin.Value = null;
 
     // Send a raw message to the console.
-    public static void SendRaw(object message, string colorCode = "^7") => CitizenFX.Core.Debug.WriteLine($"[{CurrentPlugin.Value}] {message}");
+    public static void SendRaw(object message, string colorCode = "^7")
+    { 
+        string prefix = string.IsNullOrEmpty(CurrentPlugin.Value) 
+            ? "" 
+            : $"[{CurrentPlugin.Value}] "; 
+        CitizenFX.Core.Debug.WriteLine($"{colorCode}{prefix}{message}^7");
+    }
     public static void Info(object message) =>
         SendRaw($"[Aero - Info] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^5");
     public static void Warn(object message) =>
