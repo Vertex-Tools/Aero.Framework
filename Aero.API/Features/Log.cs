@@ -31,7 +31,7 @@ public static class Log
     public static void Error(object message) =>
         SendRaw($"[Aero - Error] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}", "^1");
     public static void Debug(object message) =>
-        SendRaw($"[Aero - Debug] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^6");
+        SendRaw($"[Aero - Debug] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}", "^6");
     public static void Success(object message) =>
-        SendRaw($"[Aero - Success] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^2");
+        SendRaw($"[Aero - Success] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}", "^2");
 }
