@@ -30,3 +30,6 @@ Desktop.ini
 # FiveM Server test environment
 fivem-server/
 
+# Executables & Packages
+nuget.exe
+*.nupkg

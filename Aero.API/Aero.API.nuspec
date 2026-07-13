@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Aero.API</id>
+    <version>0.1.0</version>
+    <title>Aero Framework API</title>
+    <authors>Vertex Tools</authors>
+    <owners>Vertex Tools</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Vertex-Tools/Aero.Framework</projectUrl>
+    <description>Developer API and interfaces for building high-performance Aero Framework C# plugins on FiveM (Cfx.re).</description>
+    <summary>Aero Framework C# plugin API for FiveM.</summary>
+    <copyright>Copyright (c) Aero.Framework. All rights reserved.</copyright>
+    <tags>fivem cfx csharp framework aero avian</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="CitizenFX.Core.Server" version="1.0.26803" />
+        <dependency id="YamlDotNet" version="18.1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Aero.API.dll" target="lib\net472" />
+    <file src="..\Aero.Drivers\bin\Release\Aero.Drivers.dll" target="lib\net472" />
+    <file src="..\Aero.Events\bin\Release\Aero.Events.dll" target="lib\net472" />
+    <file src="..\Aero.Shared\bin\Release\Aero.Shared.dll" target="lib\net472" />
+    <file src="..\packages\Avian.1.0.3-preview\lib\netstandard2.0\Avian.dll" target="lib\net472" />
+    <file src="..\packages\Avian.Event.1.0.3-preview\lib\netstandard2.0\Avian.Event.dll" target="lib\net472" />
+  </files>
+</package>
