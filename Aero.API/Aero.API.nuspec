@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Aero.API</id>
+    <id>Aero.Framework</id>
     <version>0.1.0</version>
-    <title>Aero Framework API</title>
+    <title>Aero Framework</title>
     <authors>Vertex Tools</authors>
     <owners>Vertex Tools</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
