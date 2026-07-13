@@ -14,6 +14,7 @@
     <copyright>Copyright (c) Aero.Framework. All rights reserved.</copyright>
     <tags>fivem cfx csharp framework aero avian</tags>
     <readme>README.md</readme>
+    <icon>logo.png</icon>
     <dependencies>
       <group targetFramework=".NETFramework4.7.2">
         <dependency id="CitizenFX.Core.Server" version="1.0.26803" />
@@ -23,6 +24,7 @@
   </metadata>
   <files>
     <file src="README.md" target="" />
+    <file src="logo.png" target="" />
     <file src="bin\Release\Aero.API.dll" target="lib\net472" />
     <file src="..\Aero.Drivers\bin\Release\Aero.Drivers.dll" target="lib\net472" />
     <file src="..\Aero.Events\bin\Release\Aero.Events.dll" target="lib\net472" />
