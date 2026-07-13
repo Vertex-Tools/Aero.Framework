@@ -19,7 +19,16 @@ namespace Aero.Installer
             "Aero.Shared.dll",
             "Avian.dll",
             "Avian.Event.dll",
-            "YamlDotNet.dll"
+            "YamlDotNet.dll",
+            "Microsoft.ApplicationInsights.dll",
+            "Microsoft.Testing.Extensions.MSBuild.dll",
+            "Microsoft.Testing.Extensions.Telemetry.dll",
+            "Microsoft.Testing.Platform.dll",
+            "System.Buffers.dll",
+            "System.Diagnostics.DiagnosticSource.dll",
+            "System.Memory.dll",
+            "System.Numerics.Vectors.dll",
+            "System.Runtime.CompilerServices.Unsafe.dll"
         };
 
         static async Task Main(string[] args)
