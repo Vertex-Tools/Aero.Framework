@@ -25,11 +25,11 @@ public static class Log
         CitizenFX.Core.Debug.WriteLine($"{colorCode}{prefix}{message}^7");
     }
     public static void Info(object message) =>
-        SendRaw($"[Aero - Info] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^5");
+        SendRaw($"[Aero - Info] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}", "^5");
     public static void Warn(object message) =>
-        SendRaw($"[Aero - Warn] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^3");
+        SendRaw($"[Aero - Warn] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}", "^3");
     public static void Error(object message) =>
-        SendRaw($"[Aero - Error] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^1");
+        SendRaw($"[Aero - Error] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}", "^1");
     public static void Debug(object message) =>
         SendRaw($"[Aero - Debug] - [{Assembly.GetCallingAssembly().GetName().Name}] {message}]", "^6");
     public static void Success(object message) =>
