@@ -9,6 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/Vertex-Tools/Aero.Framework</projectUrl>
+    <repository type="git" url="https://github.com/Vertex-Tools/Aero.Framework" />
     <description>Developer API and interfaces for building high-performance Aero Framework C# plugins on FiveM (Cfx.re).</description>
     <summary>Aero Framework C# plugin API for FiveM.</summary>
     <copyright>Copyright (c) Aero.Framework. All rights reserved.</copyright>
