@@ -8,7 +8,7 @@ namespace Aero.Installer
 {
     class Program
     {
-        private const string BaseDownloadUrl = "https://example.com/downloads/";
+        private const string BaseDownloadUrl = "https://aeroframework.net/downloads/";
         
         private static readonly List<string> CoreFiles = new()
         {

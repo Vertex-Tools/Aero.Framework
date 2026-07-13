@@ -99,7 +99,7 @@ public class PlayerEventHandler
             <a href="#features" className="px-4 py-2 rounded-full hover:bg-zinc-900 hover:text-white transition-all duration-200">Features</a>
             <a href="#code" className="px-4 py-2 rounded-full hover:bg-zinc-900 hover:text-white transition-all duration-200">Code Examples</a>
             <a href="#downloads" className="px-4 py-2 rounded-full hover:bg-zinc-900 hover:text-white transition-all duration-200">Downloads</a>
-            <a href="#quickstart" className="px-4 py-2 rounded-full hover:bg-zinc-900 hover:text-white transition-all duration-200">Quickstart</a>
+            <a href="/docs" className="px-4 py-2 rounded-full hover:bg-zinc-900 hover:text-white transition-all duration-200">Docs</a>
           </nav>
           <div className="flex items-center gap-3">
             <a 
@@ -133,8 +133,8 @@ public class PlayerEventHandler
           <a href="#downloads" className="curved-btn-primary px-8 py-3.5 text-center flex-1 whitespace-nowrap">
             Download Installer
           </a>
-          <a href="#quickstart" className="curved-btn-secondary px-8 py-3.5 text-center flex-1 whitespace-nowrap">
-            Quickstart Guide
+          <a href="/docs" className="curved-btn-secondary px-8 py-3.5 text-center flex-1 whitespace-nowrap">
+            Documentation
           </a>
         </div>
       </section>
