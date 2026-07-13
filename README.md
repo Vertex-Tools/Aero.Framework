@@ -209,7 +209,7 @@ await db.ExecuteAsync("INSERT INTO audit_logs (message) VALUES (@msg)", new { ms
 var playerDriver = DriverRegistry.Singleton.Get<IPlayerDriver>();
 ```
 
-### Full documentation in https://aeroframework.net
+### Full documentation in https://aeroframework.net/docs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
