@@ -24,7 +24,14 @@ namespace Aero.Installer
 
         static async Task Main(string[] args)
         {
-            Console.Clear();
+            try
+            {
+                if (!Console.IsOutputRedirected)
+                {
+                    Console.Clear();
+                }
+            }
+            catch { }
             PrintHeader();
 
             try
@@ -93,7 +100,18 @@ namespace Aero.Installer
             {
                 Console.ResetColor();
                 Console.WriteLine("\nPress any key to exit...");
-                Console.ReadKey();
+                try
+                {
+                    if (!Console.IsInputRedirected)
+                    {
+                        Console.ReadKey(true);
+                    }
+                    else
+                    {
+                        Console.Read();
+                    }
+                }
+                catch { }
             }
         }
 
