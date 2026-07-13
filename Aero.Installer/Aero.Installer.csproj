@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -13,7 +13,6 @@
       <ProjectReference Include="..\Aero.Drivers\Aero.Drivers.csproj" />
       <ProjectReference Include="..\Aero.Events\Aero.Events.csproj" />
       <ProjectReference Include="..\Aero.Shared\Aero.Shared.csproj" />
-      <ProjectReference Include="..\Aero.Tests\Aero.Tests.csproj" />
     </ItemGroup>
 
 </Project>
