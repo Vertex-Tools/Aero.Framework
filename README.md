@@ -20,7 +20,7 @@
   <p align="center">
     A high-performance C# server-side development framework for FiveM.
     <br />
-    <a href="https://github.com/Vertex-Tools/Aero.Framework"><strong>Explore the docs » (In development)</strong></a>
+    <a href="https://aeroframework.net/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Vertex-Tools/Aero.Framework/issues">Report Bug</a>
