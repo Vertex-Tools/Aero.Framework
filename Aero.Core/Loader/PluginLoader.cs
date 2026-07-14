@@ -1,4 +1,4 @@
-﻿// ====================================
+// ====================================
 // <copyright file="PluginLoader.cs" company="Vertex Tools">
 // Copyright (c) Aero.Framework. All rights reserved.
 // Licensed under the MIT License.
@@ -22,7 +22,19 @@ namespace Aero.Core.Loader
     {
         public static readonly List<object> LoadedPlugins = new(); // List of all loaded plugins.
         public CommandRegister CommandRegister { get; } = new(); // Command Register Handler.
-        public bool IsPluginType(Type type) => typeof(Plugin<>).IsAssignableFrom(type); // Checks if the type is a plugin.
+        public bool IsPluginType(Type type)
+        {
+            var baseType = type;
+            while (baseType != null && baseType != typeof(object))
+            {
+                if (baseType.IsGenericType && baseType.GetGenericTypeDefinition() == typeof(Plugin<>))
+                {
+                    return true;
+                }
+                baseType = baseType.BaseType;
+            }
+            return false;
+        } // Checks if the type is a plugin.
         
         /// <summary>
         /// Private void built to resolve embedded assemblies.
@@ -110,7 +122,10 @@ namespace Aero.Core.Loader
                 {
                     var requiredVersion = (Version)requireProp.GetValue(pluginInstance);
                     if(requiredVersion > API.Version.CoreCurrent)
+                    {
+                        Log.Error($"[Aero - PluginLoader] -> Skipped loading plugin '{pluginName}' because it requires framework version {requiredVersion}, but current version is {API.Version.CoreCurrent}.");
                         return;
+                    }
                 }
                 LoadedPlugins.Add(pluginInstance);
                 bool enabled = true;
